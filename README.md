@@ -82,6 +82,19 @@ This stage introduces controllability, observability, pole placement, observers,
 
 ---
 
+## Assets and notes
+
+I have also added my personal work, notes, and photos in the Assets folder.
+
+The materials are organized by stage for easy reference:
+
+- Assets/Stage_1/ — notes and images related to Stage 1 projects
+- Assets/Stage_2/ — notes and images related to Stage 2 projects
+
+This section helps keep the theoretical work, handwritten notes, and visual documentation connected to each project in the repository.
+
+---
+
 ## Learning goals
 
 By working through these projects, you will develop skills in:

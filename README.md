@@ -52,17 +52,22 @@ This stage builds intuition for dynamics, transfer functions, identification, PI
 
 This stage introduces controllability, observability, pole placement, observers, and LQR design.
 
-1. Cart-Pole
+1. Active Suspension
+   - Develop a quarter-car state-space model
+   - Analyze suspension dynamics and control objectives
+   - Implement an LQR-based active suspension strategy
+
+2. Cart-Pole
    - Build a state-space model
    - Analyze controllability and stability
    - Design an LQR controller
 
-2. Magnetic Levitation
+3. Magnetic Levitation
    - Linearize a nonlinear system
    - Study controllability and observer design
    - Implement LQR regulation and closed-loop analysis
 
-3. Quadrotor Altitude Control
+4. Quadrotor Altitude Control
    - Derive vertical dynamics
    - Develop a state-space control formulation
    - Explore altitude regulation concepts
@@ -76,6 +81,7 @@ This stage introduces controllability, observability, pole placement, observers,
   - Mass Damper Spring/
   - Thermal Control/
 - Stage_2/
+  - Active Suspension/
   - Cart_Pole/
   - Magnetic_Levitation/
   - Quadrotor_Altitude/

@@ -16,10 +16,11 @@ This repository follows that approach. The current implementation focuses on the
 
 ## What this repository contains
 
-The current portfolio covers the first two major learning stages:
+The current portfolio covers three major learning stages:
 
 - Stage 1 — Classical Control Engineer
 - Stage 2 — State-Space Engineer
+- Stage 3 — Advanced System Identification
 
 These projects are designed to help you move from basic system understanding to modern state-space control methods using MATLAB/Simulink and related scripts.
 
@@ -72,6 +73,16 @@ This stage introduces controllability, observability, pole placement, observers,
    - Develop a state-space control formulation
    - Explore altitude regulation concepts
 
+### Stage 3 — Advanced System Identification
+
+This stage explores data-driven system identification methods applied to real mechanical systems.
+
+1. System Identification via OKID and ERA
+   - Apply Observer Kalman Filter Identification (OKID) and Eigenrealization Algorithm (ERA) techniques
+   - Analyze identification performance on real experimental data from mechanical systems
+   - Evaluate limitations and constraints of identification methods on non-ideal data
+   - Validate algorithms on synthetic systems with known dynamics
+
 ---
 
 ## Repository structure
@@ -85,6 +96,8 @@ This stage introduces controllability, observability, pole placement, observers,
   - Cart_Pole/
   - Magnetic_Levitation/
   - Quadrotor_Altitude/
+- Stage_3/
+  - System Identification (OKID, ERA, and related methods)
 
 ---
 
@@ -96,6 +109,7 @@ The materials are organized by stage for easy reference:
 
 - Assets/Stage_1/ — notes and images related to Stage 1 projects
 - Assets/Stage_2/ — notes and images related to Stage 2 projects
+- Assets/Stage_3/ — notes and documentation related to Stage 3 projects
 
 This section helps keep the theoretical work, handwritten notes, and visual documentation connected to each project in the repository.
 

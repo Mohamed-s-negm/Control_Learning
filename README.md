@@ -75,13 +75,28 @@ This stage introduces controllability, observability, pole placement, observers,
 
 ### Stage 3 — Advanced System Identification
 
-This stage explores data-driven system identification methods applied to real mechanical systems.
+This stage explores data-driven modeling and identification methods for both linear and nonlinear systems, with a strong emphasis on practical interpretation of results.
 
-1. System Identification via OKID and ERA
-   - Apply Observer Kalman Filter Identification (OKID) and Eigenrealization Algorithm (ERA) techniques
-   - Analyze identification performance on real experimental data from mechanical systems
-   - Evaluate limitations and constraints of identification methods on non-ideal data
-   - Validate algorithms on synthetic systems with known dynamics
+1. Dynamic Mode Decomposition (DMD) and vibration analysis
+   - Apply DMD-based tools to identify dominant dynamics from vibration datasets
+   - Study modal behavior and reduced-order representations
+   - Compare results across beam and mass-spring-damper inspired examples
+
+2. Koopman / EDMD-based modeling
+   - Use lifted-state approaches to represent nonlinear dynamics
+   - Explore EDMD and related techniques for data-driven system approximation
+   - Work with vibration and benchmark datasets to assess modeling quality
+
+3. OKID and ERA identification
+   - Apply Observer Kalman Filter Identification (OKID) and Eigenrealization Algorithm (ERA)
+   - Analyze identification performance on experimental and synthetic datasets
+   - Evaluate the impact of data quality and preprocessing on model accuracy
+
+4. SINDy for nonlinear system discovery
+   - Use sparse identification to recover governing equations from data
+   - Test methods on benchmark nonlinear systems such as Lorenz and Van der Pol dynamics
+   - Compare discovered models with known physical structure
+
 
 ---
 
@@ -97,7 +112,11 @@ This stage explores data-driven system identification methods applied to real me
   - Magnetic_Levitation/
   - Quadrotor_Altitude/
 - Stage_3/
-  - System Identification (OKID, ERA, and related methods)
+  - DMD_dyn/
+  - Koopman/
+  - OKIDERA_Iden/
+  - SIDNy/
+  - Stage_3_readme.md
 
 ---
 
@@ -109,7 +128,7 @@ The materials are organized by stage for easy reference:
 
 - Assets/Stage_1/ — notes and images related to Stage 1 projects
 - Assets/Stage_2/ — notes and images related to Stage 2 projects
-- Assets/Stage_3/ — notes and documentation related to Stage 3 projects
+- Assets/Stage_3/ — notes and images related to the Stage 3 investigations
 
 This section helps keep the theoretical work, handwritten notes, and visual documentation connected to each project in the repository.
 
@@ -124,6 +143,8 @@ By working through these projects, you will develop skills in:
 - understanding poles, stability, and transient response
 - designing classical and state-feedback controllers
 - validating controller behavior through simulation
+- applying data-driven identification methods to real and synthetic datasets
+- comparing model structures and interpreting identification results critically
 
 ---
 

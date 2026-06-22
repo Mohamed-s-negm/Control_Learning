@@ -116,7 +116,6 @@ This stage explores data-driven modeling and identification methods for both lin
   - Koopman/
   - OKIDERA_Iden/
   - SIDNy/
-  - Stage_3_readme.md
 
 ---
 
